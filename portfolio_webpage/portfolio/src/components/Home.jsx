@@ -8,6 +8,7 @@ import Skills from "./Skills.jsx"
 import fb from "../images/fb_logo.png"
 import link from "../images/link_logo.png"
 import gitHub from '../images/GitHub-Logo.png'
+import eng from "../images/eng.png"
 
 
 export default function Home(){
@@ -21,7 +22,7 @@ export default function Home(){
                 <div className="container-fluid">
                     <nav className="navbar navbar-expand-lg custom_nav-container ">
                         <div className="navbar-brand">
-                            <span>Logo</span>
+                            <a href=" "><img src={eng} alt=" "></img></a>
                         </div>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav  ">

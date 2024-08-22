@@ -47,11 +47,11 @@
   }
 
 
-  .client_section .client_container {
+  .project_section .client_container {
     width: 100%;
   }
 
-  .client_section .box {
+  .project_section .box {
     margin: 0;
   }
 
@@ -61,8 +61,8 @@
     margin-top: 45px;
   }
 
-  .client_section .owl-carousel .owl-nav .owl-prev,
-  .client_section .owl-carousel .owl-nav .owl-next {
+  .project_section .owl-carousel .owl-nav .owl-prev,
+  .project_section .owl-carousel .owl-nav .owl-next {
     position: unset;
     margin: 0 2.5px;
   }

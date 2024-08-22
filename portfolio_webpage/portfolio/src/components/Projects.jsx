@@ -3,7 +3,7 @@ import ProjectItem from "./Item/ProjectItem"
 
 export default function Projects(){
     return(
-    <section className="client_section layout_padding">   
+    <section className="project_section layout_padding">   
         <div className="container">
                 <div className="heading_container heading_center">
                     <h2>

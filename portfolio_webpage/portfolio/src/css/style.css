@@ -156,6 +156,15 @@ a:focus {
   padding-right: 25px;
   padding-left: 25px;
 }
+.header_section .container-fluid .navbar-brand a {
+ 
+  padding:2px;
+}
+.header_section .container-fluid .navbar-brand a img {
+ 
+  height:35px;
+  weight: 35px;
+}
 
 
 
@@ -325,7 +334,7 @@ a:focus {
   display: inline-block;
   background-color: #00bbf0;
   color: #ffffff;
-  border-radius: 40%;
+  border-radius: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   padding:2%;
@@ -605,40 +614,54 @@ a:focus {
   flex-direction:column;
   align-content:center;
   background-color:#007fa4;
-  margin:10%;
+  margin:15%;
   border-radius:10%;
   -webkit-filter: drop-shadow(3px 3px 3px white);
   filter: drop-shadow(3px 3px 3px white);
-  border:2px solid red;
   padding:10px;
 }
 .skills_section .img-box {
- padding:5%;
+ 
  border-radius:10%;
- background-color:#ffffff;
-  border:2px solid red;
+ background-color:#007fa4;
+  display:flex;
+  justify-content:center;
+  margin-bottom:5px;
 }
 
 .skills_section .img-box img {
   height:100px;
   weight:100px;
+  -webkit-filter: drop-shadow(2px 2px 2px white);
+  filter: drop-shadow(2px 2px 2px white);
   
 }
 .skills_section .detail-box{
-  border:2px solid green;
+  margin-top:25px;
   display:flex;
   justify-content:center;
-  margin-bottom:5%;
+  aling-items:center;
+  
+ 
 }
 .skills_section .detail-box h6 {
+  
   font-weight: bold;
   color:#ffffff;
+  
 }
 
 .skills_section .rating {
-  border:2px solid yellow;
+  
+  padding:1px;
+  display:flex;
+  justify-content:center;
 }
-
+.skills_section .rating  img{
+  width:80%;
+  height:70%;
+ 
+}
 .skills_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
@@ -807,12 +830,12 @@ a:focus {
 }
 
 /*team section end*/
-/* client section start */
-.client_section .heading_container {
+/* project section start */
+.project_section .heading_container {
   margin-bottom: 30px;
 }
 
-.client_section .carousel-wrap{
+.project_section .carousel-wrap{
   
    display:flex;
    -webkit-box-direction: normal;
@@ -823,7 +846,7 @@ a:focus {
 
 }
 
-.client_section .box {
+.project_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -832,13 +855,14 @@ a:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 15px;
- 
   width:550px;
+  -webkit-filter: drop-shadow(3px 3px 3px black);
+  filter: drop-shadow(3px 3px 3px black);
  
- 
+ border:none;
   
 }
-.client_section .box .img-box {
+.project_section .box .img-box {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -850,49 +874,74 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+ border:2px solid black;
   position: relative;
+  
+  border-radius:20px 20px 0 0;
+}
+
+.project_section .box .img-box img {
+  width: 100%;
+  border-radius:20px 20px 0 0;
  
 }
 
-.client_section .box .img-box img {
-  width: 100%;
-}
-
-.client_section .box .client_id {
+.project_section .box .client_id {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: center;
+          padding:3px;
+          border-bottom:3px solid #007fa4;
 }
 
-.client_section .box .client_id .client_info h6 {
-  font-weight: 600;
+.project_section .box .client_id  h4 {
+  font-weight: 800;
   margin-bottom: 5px;
+  color:#00204a;
 }
 
-.client_section .box .client_id .client_info p {
-  margin-bottom: 0;
-  font-size: 15px;
-  font-size: 14px;
-  margin-bottom: 10px;
+.project_section .box .detail-box  p {
+  margin-top: 10px;
+  font-size: 18px;
+  margin-bottom: 10px; 
+  padding:5px;
 }
 
-.client_section .box .detail-box {
+.project_section .box .detail-box {
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-  padding: 75px 25px 25px 25px;
+  padding: 15px 15px 15px 15px;
+  
 }
 
-.client_section .box .detail-box i {
-  color: #00204a;
-  margin-bottom: 10px;
+.project_section .box .detail-box .rowButton {
+  
+  padding:5px;
+  display:flex;
+  justify-content:space-evenly;
+ 
+}
+.project_section .box .detail-box .rowButton button{
+  
+  text-align: center;
+  display: inline-block;
+  background-color: #00bbf0;
+  color: #ffffff;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding:2%;
+  font-size:20px;
+  font-style:bold;
+  border:none;
+  font-weight: 600;
+  
+ 
 }
 
-
-.client_section .owl-carousel .owl-nav {
+.project_section .owl-carousel .owl-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -903,8 +952,8 @@ a:focus {
   
 }
 
-.client_section .owl-carousel .owl-nav .owl-prev,
-.client_section .owl-carousel .owl-nav .owl-next {
+.project_section .owl-carousel .owl-nav .owl-prev,
+.project_section .owl-carousel .owl-nav .owl-next {
   width: 55px;
   height: 55px;
   background-color: #ffffff;
@@ -916,8 +965,8 @@ a:focus {
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
 }
 
-.client_section .owl-carousel .owl-nav .owl-prev:hover,
-.client_section .owl-carousel .owl-nav .owl-next:hover {
+.project_section .owl-carousel .owl-nav .owl-prev:hover,
+.project_section .owl-carousel .owl-nav .owl-next:hover {
   color: #00204a;
 }
 

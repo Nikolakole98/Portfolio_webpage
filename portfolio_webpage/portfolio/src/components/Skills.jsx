@@ -1,7 +1,13 @@
-import s1 from "../images/skills/react.png"
-import s2 from "../images/s2.png"
-import s3 from "../images/s3.png"
-import SkillItem from "./Item/SkillItem"
+import css from "../images/skills/css.png"
+import js from "../images/skills/js.png"
+import react from "../images/skills/react.png"
+import word from "../images/skills/word.png"
+import pp from "../images/skills/pp.png"
+import excel from "../images/skills/excel.png"
+import ps from "../images/skills/ps.png"
+import illustrator from "../images/skills/illustrator.png"
+import SkillItem from "./Item/SkillItem.jsx"
+import starts from '../images/stars.png'
 
 
 export default function Skills(){
@@ -14,11 +20,16 @@ export default function Skills(){
                 </h2>               
             </div>
             <div className="row">
-                <SkillItem img={s1} name='React JS'/>
-                <SkillItem img={s2} name='React JS'/> 
-                <SkillItem img={s3} name='React JS'/> 
-                <SkillItem img={s3} name='React JS'/> 
-                <SkillItem img={s3} name='React JS'/> 
+                <SkillItem img={css} name='HTML/CSS' starts={starts}/>
+                <SkillItem img={js} name='JavaScript' starts={starts}/> 
+                <SkillItem img={react} name='React JS' starts={starts}/> 
+                <SkillItem img={word} name='Microsoft Word' starts={starts}/> 
+                <SkillItem img={pp} name='Microsoft PowerPoint' starts={starts}/> 
+                <SkillItem img={excel} name='Microsoft Excel' starts={starts}/> 
+                <SkillItem img={ps} name='Adobe Photoshop' starts={starts}/>
+                <SkillItem img={illustrator} name='Adobe Illustrator' starts={starts}/>
+                
+                 
                 
                    
             </div>

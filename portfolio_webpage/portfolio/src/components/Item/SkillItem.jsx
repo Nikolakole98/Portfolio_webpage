@@ -1,4 +1,5 @@
-export default function SkillItem({name,img}){
+
+export default function SkillItem({name,img,starts}){
 return(    
 <div className="col-md-3">
 
@@ -10,7 +11,9 @@ return(
             <h6>{name}</h6>
             
          </div>
-         <div className="rating"></div>                   
+         <div className="rating">
+            <img src={starts} alt=""/>  
+         </div>                   
      </div>
        
                     
