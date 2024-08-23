@@ -2,12 +2,15 @@ export default function Footer(){
     return(
 <>    
 <section className="info_section layout_padding2">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6 col-lg-3 info_col">
-          <div className="info_contact">
-            <h4>Address</h4>
-            <div className="contact_link_box">
+<div className="container">
+  <div className="row">
+
+
+
+  <div className="col-md-6 col-lg-3 info_col">      
+   <div className="info_contact">    
+        <h4>Address</h4>       
+       <div className="contact_link_box">     
               <a href=" ">
                 <i className="fa fa-map-marker" aria-hidden="true"></i>
                 <span>Location</span>
@@ -18,8 +21,8 @@ export default function Footer(){
               <a href=" "><i className="fa fa-envelope" aria-hidden="true"></i>
                 <span>demo@gmail.com </span>
               </a>
-            </div>
-          </div>
+        </div>    
+      </div>    
           <div className="info_social">
             <a href=" "><i className="fa fa-facebook" aria-hidden="true"></i>
             </a>
@@ -31,13 +34,11 @@ export default function Footer(){
             </a>
           </div>
         </div>
-        <div className="col-md-6 col-lg-3 info_col">
-          <div className="info_detail">
-            <h4>Info</h4>
-            <p>necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful</p>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-2 mx-auto info_col">
+
+
+
+
+    <div className="col-md-6 col-lg-2 mx-auto info_col">    
           <div className="info_link_box">
             <h4>Links</h4>
             <div className="info_links">
@@ -49,12 +50,20 @@ export default function Footer(){
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-3 info_col ">
-          <h4> Subscribe</h4>
-          <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">Subscribe</button>
-          </form>
+
+
+
+    <div className="col-md-6 col-lg-3 info_col ">    
+          <h4>Contact Info</h4>
+          
+
+
+
+
+
+
+
+
         </div>
       </div>
     </div>

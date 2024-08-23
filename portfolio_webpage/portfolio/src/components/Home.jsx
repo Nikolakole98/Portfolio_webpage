@@ -22,6 +22,7 @@ export default function Home(){
                 <div className="container-fluid">
                     <nav className="navbar navbar-expand-lg custom_nav-container ">
                         <div className="navbar-brand">
+                            
                             <a href=" "><img src={eng} alt=" "></img></a>
                         </div>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -57,7 +58,7 @@ export default function Home(){
                                     <div className="row">
                                         <div className="col-md-6 ">
                                             <div className="detail-box">
-                                                <p>Hello, <span>I'm</span></p>
+                                                <p id="Hello">Hello, <span>I'm</span></p>
                                                 <h1>Nikola Nikolic</h1>
                                                 <p>A <span> Front-end developer </span>From Serbia</p>
                                                 <div className="row">

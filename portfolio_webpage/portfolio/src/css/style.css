@@ -1070,6 +1070,7 @@ padding:20px;
   background-color: #00204a;
   color: #ffffff;
   padding: 45px 0 15px 0;
+  
 }
 
 .info_section h4 {
@@ -1079,6 +1080,7 @@ padding:20px;
 
 .info_section .info_col {
   margin-bottom: 30px;
+  border:2px solid red;
 }
 
 .info_section .info_contact .contact_link_box {
@@ -1089,6 +1091,7 @@ padding:20px;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+          border:2px solid green;
 }
 
 .info_section .info_contact .contact_link_box a {
